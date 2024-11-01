@@ -30,7 +30,7 @@ function displayFlag(country) {
     flagElement.className = "country";
 
     flagElement.innerHTML = `
-        <img src="${country.flags.png}" alt="${country.name.common} flag" />
+        <img src="${country.flags.png}"/>
         <h3>${country.name.common}</h3>
     `;
 
